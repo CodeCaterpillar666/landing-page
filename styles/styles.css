@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header, .footer, .one{
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+}
+
+.footer {
+    color: #e5e7eb;
+    padding: 18px;
+    font-size: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    padding: 30px 100px 50px;
+    flex: 1;
+    gap: 20px;
+    text-align: left;
+}
+
+.one img {
+    max-width: 800px;
+    width: auto;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px 32px;
+    justify-items: center;
+}
+
+.two h2 {
+    text-align: center;
+}
+
+.two img {
+    width: 300px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-card div {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 500px;
+}
+
+.three .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.three .quote-author {
+    text-align: right;
+}
+
+.four {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.four .container {
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    text-align: left;
+    padding: 48px;
+    gap: 40px;
+    color: #f9faf8;
+}
+
+.four .sign-up-button {
+    border-style: solid;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
