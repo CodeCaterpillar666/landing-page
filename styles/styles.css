@@ -43,7 +43,7 @@ body {
 }
 
 .one img {
-    max-width: 800px;
+    max-width: 300px;
     width: auto;
 }
 
@@ -61,6 +61,7 @@ body {
 
 .two img {
     width: 300px;
+    height: 300px;
 }
 
 .info-cards {
